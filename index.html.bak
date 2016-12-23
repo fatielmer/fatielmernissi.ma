@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  		<!-- File Fontawesome Css-->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+
+  <!-- JavaScript !-->
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+		  <script src="js/bootstrap.min.js"></script>
+  
+<!-- Css !-->
+ <link rel="stylesheet" href="css/bootstrap.min.css" >
+ 		 <link rel="stylesheet" href="css/bootstrap-theme.min.css"  >
+		  		 <link rel="stylesheet" href="css/ana.css"  >
+  <title>Toto Pizza</title>
+  <link rel="shortcut icon" href="pizza.png" type="imag/png" />
+ </head>
+ <body background="4.jpg">
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+	<a href="index.html">
+		  <img src="pizza.png" id="logo"/>
+		  </a>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Toto Pizza</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="page1.html">Menu</a></li>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="page2.html">Find US</a></li>
+		<li><a href="page3.html">Contact US</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div id="promo"   style="background-image:url(33.jpg);background-size:cover;" >
+
+<div class="jumbotron">
+<h1> Fantastic Offer!</h1>
+<p> we have a special treat to our new customers. Order now and get a big discount </br> on your first pizza </p>
+<a href="page1.html"><button type="submit" class="btn btn-danger" >Get 60%  Off!</button></a>
+</div>
+</div>
+<div class="container side-section" id="fati" >
+<h1>Welcome to Toto Pizza</h1>
+<p> Toto Pizza was first opened by my grandparents, Caroline and Antonio (Toto) Spadarella in 1932 on Coney Island Avenue in Brooklyn. Both were from Naples, the region in Italy where pizza originated. Using a huge brick oven, they began baking pizza according to the traditional recipe, the same recipe we use today.</p>
+</div>
+<hr align="center" width="25%"/>
+<div class="dark-section" style="background-image:url(4.jpg);background-size:cover;">
+<div class="container side-section" id="why" >
+<h1>How to contact us or follow our news!</h1>
+<div class="row">
+<div class="col-md-4 item">
+<a href="https://www.facebook.com/TotoPizzaExpress/?fref=ts" target="_blank">
+<i class="fa fa-facebook"></i>
+</a>
+<a href="https://www.facebook.com/TotoPizzaExpress/?fref=ts" target="_blank"><h2> Facebook</h2> </a>
+<p>This is our Account on Facebook! </br> Contact Us!</p>
+</div>
+<div class="col-md-4 item">
+<a href="https://www.instagram.com/explore/locations/11691538/toto-pizza/" target="_blank">
+<i class="fa fa-instagram"></i>
+</a>
+<a href="https://www.instagram.com/explore/locations/11691538/toto-pizza/" target="_blank">
+<h2> Instagram</h2>
+</a>
+<p>This is our Account on Instagram! </br> Follow Us!</p>
+
+</div>
+<div class="col-md-4 item">
+<a href="https://twitter.com/toto_pizza" target="_blank">
+<i class="fa fa-twitter-square"></i>
+</a>
+<a href="https://twitter.com/toto_pizza" target="_blank">
+<h2> Twitter</h2>
+</a>
+<p>This is our Account on Twitter! </br> Follow Us!</p>
+</div>
+</div>
+</div>
+</div>
+<div class="container side-section" id="fato" >
+<h1>Some Pictures</h1>
+<div class="row">
+<div class="col-md-4">
+<div class="thumbnail">
+<a href="img/7.jpg" target="_blank">
+          <img src="kik.jpg" alt="pizza" width="304" height="236">
+         </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="img/6.jpg" target="_blank" >
+          <img src="00.jpg" alt="pizzaa" width="304" height="236">
+        </a>
+      </div>
+	  </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="img/10.jpg" target="_blank">
+          <img src="m.jpg" alt="pizza" width="304" height="236">
+        </a>
+      </div>
+    </div>
+</div>
+</div>
+<footer>
+<div class="row">
+<div class="col-md-4 col-sm-6 footer-navigation">
+<h3>
+<a href="index.html">Toto Pizza </a>
+</h3>
+<p class="links"> 
+<a href="index.html"> Home </a>
+<strong>-</strong>
+<a href="page1.html"> Menu </a>
+<strong>-</strong>
+<a href="page2.html"> Find Us </a>
+<strong>-</strong>
+<a href="page3.html"> Contact Us </a>
+<strong>-</strong>
+</p>
+</div> 
+<div class="hihi col-md-4 col-sm-6 footer-contacts">
+<div>
+<span class="fa fa-map-marker footer-contacts-icon"></span>
+<p> 
+<span class="new-line-span">8 Rue Bansac 63000 Clermont</span>
+</p>
+</div>
+<div>
+<i class="fa fa-phone footer-contacts-icon" ></i>
+<p class="footer-center-info email text-center">0473985454</p>
+</div>
+<div>
+<i class="fa fa-envelope footer-contacts-icon"></i>
+<p>anthony.medassisia@gmail.com</p>
+</div>
+</div>
+<div class="clearfix visible-sm-block">
+</div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+
+ </body>
+</html>

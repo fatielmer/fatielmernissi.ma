@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+      <!-- JavaScript !-->
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+		  <script src="js/bootstrap.min.js"></script>
+  
+<!-- Css !-->
+ <link rel="stylesheet" href="css/bootstrap.min.css" >
+ 		 <link rel="stylesheet" href="css/bootstrap-theme.min.css"  >
+		  		 <link rel="stylesheet" href="css/mimi.css"  >
+
+  <title>Toto Pizza - Localisation</title>
+    <link rel="shortcut icon" href="pizza.png" type="imag/png" />
+
+ </head>
+ <body  background="bg.png">
+   <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">	
+	<a href="index.html">
+		  <img src="pizza.png" id="logo"  />
+		  </a>
+
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Toto Pizza</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li ><a href="index.html">Home </a></li>
+        <li ><a href="page1.html">Menu </a></li>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="page2.html">Find US<span class="sr-only">(current)</span></a></li>
+		<li><a href="page3.html">Contact US</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+		<!-- Start div wrapper -->
+		<br><br>
+  <div id="hihita">
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3192.7467141189213!2d174.7572540149244!3d-36.848541679938535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d47f1c642eb55%3A0xdb57b854b5a1c443!2sToto+Pizza!5e0!3m2!1sen!2s!4v1480177867751" width="100%" height="650" frameborder="0" style="border:0" margin-top="0" allowfullscreen></iframe>
+ </div>
+ <!--  Start footer -->
+<footer>
+<div class="row">
+<div class="col-md-4 col-sm-6 footer-navigation">
+<h3>
+<a href="index.html">Toto Pizza </a>
+</h3>
+<p class="links"> 
+<a href="index.html"> Home </a>
+<strong>-</strong>
+<a href="page1.html"> Menu </a>
+<strong>-</strong>
+<a href="page2.html"> Find Us </a>
+<strong>-</strong>
+<a href="page3.html"> Contact Us </a>
+<strong>-</strong>
+</p>
+</div> 
+<div class="hihi col-md-4 col-sm-6 footer-contacts">
+<div>
+<span class="fa fa-map-marker footer-contacts-icon"></span>
+<p> 
+<span class="new-line-span">8 Rue Bansac 63000 Clermont</span>
+</p>
+</div>
+<div>
+<i class="fa fa-phone footer-contacts-icon" ></i>
+<p class="footer-center-info email text-center"> 0473985454</p>
+</div>
+<div>
+<i class="fa fa-envelope footer-contacts-icon"></i>
+<p>anthony.medassisia@gmail.com</p>
+</div>
+</div>
+<div class="clearfix visible-sm-block">
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+
+
+  
+ </body>
+</html>

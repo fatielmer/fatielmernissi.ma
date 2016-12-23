@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+        <!-- JavaScript !-->
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+		  <script src="js/bootstrap.min.js"></script>
+  
+<!-- Css !-->
+ <link rel="stylesheet" href="css/bootstrap.min.css" >
+ 		 <link rel="stylesheet" href="css/bootstrap-theme.min.css"  >
+		  		 <link rel="stylesheet" href="css/mimiti.css"  >
+
+  <title>Toto Pizza - Contactez nous!</title>
+    <link rel="shortcut icon" href="pizza.png" type="imag/png" />
+
+ </head>
+ <body background="4.jpg">
+    <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header"> 
+	<a href="index.html">
+		  <img src="pizza.png" id="logo"  />
+		  </a>
+
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Toto Pizza</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li ><a href="index.html">Home </a></li>
+        <li ><a href="page1.html">Menu </a></li>
+      <ul class="nav navbar-nav navbar-right">
+        <li ><a href="page2.html">Find US</a></li>
+		<li class="active"><a href="page3.html">Contact US<span class="sr-only">(current)</span></a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!--
+
+<form>
+<br><br><br><br>
+
+ <label for="nom">Full Name  :</label>
+	   <input type="text" class="form-control" id="nom" required="true"
+			placeholder="Type your name "/>
+	  <label for="courriel">Email :</label>
+	   <input type="email" class="form-control" id="courriel" required="true" placeholder="example@live.fr"/>
+	  	  <label for="number"> Your Age :</label>
+	   <input type="number" class="form-control" id="number" max="100" min="15" required="true"
+			placeholder="Type your Age "/>
+			<label for="message">Your Feedback :</label>
+	   <textarea class="form-control" id="message" placeholder="Type your message here">
+	   </textarea>
+
+<br><br><br>
+	   <div style="text-align:center">
+	   <a href="index.html">
+	   <input  class="btn btn-info" type="submit" value="Send!"/>
+	   </a>
+	   </div>
+   </form>
+
+<br><br><br><br><br><br><br><br><br>
+-->
+ <form class="form-horizontal">
+<fieldset style="text-align:center">
+<br><br>
+<!-- Form Name -->
+<legend>Form Name</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Name *</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" placeholder="Enter Your Full Name" class="form-control input-md" required="" type="text">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="title">Title</label>  
+  <div class="col-md-4">
+  <input id="title" name="title" placeholder="Job Title" class="form-control input-md" type="text">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="company">Company</label>  
+  <div class="col-md-4">
+  <input id="company" name="company" placeholder="Enter your Company Name" class="form-control input-md" type="text">
+    
+  </div>
+</div>
+
+<!-- Prepended text-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Phone">Mobile Number *</label>
+  <div class="col-md-4">
+    <div class="input-group">
+      <span class="input-group-addon">+212</span>
+      <input id="Phone" name="Phone" class="form-control" placeholder="Mobile" required="" type="text">
+    </div>
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="website">Website</label>  
+  <div class="col-md-4">
+  <input id="website" name="website" placeholder="Enter Your Website" class="form-control input-md" type="text">
+  <span class="help-block">Ex: www.resguardo.com</span>  
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="email">E Mail *</label>  
+  <div class="col-md-4">
+  <input id="email" name="email" placeholder="Enter Your E mail" class="form-control input-md" required="" type="text">
+    
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Message">Message *</label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="Message" name="Message">Enter Your Message *</textarea>
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="singlebutton"></label>
+  <div class="col-md-4" style="text-align:center">
+    <button id="singlebutton" name="singlebutton" class="btn btn-info">Send Feedback</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+<br><br><br><br><br><br>
+ <!--  Start footer -->
+<footer>
+<div class="row">
+<div class="col-md-4 col-sm-6 footer-navigation">
+<h3>
+<a href="index.html">Toto Pizza </a>
+</h3>
+<p class="links"> 
+<a href="index.html"> Home </a>
+<strong>-</strong>
+<a href="page1.html"> Menu </a>
+<strong>-</strong>
+<a href="page2.html"> Find Us </a>
+<strong>-</strong>
+<a href="page3.html"> Contact Us </a>
+<strong>-</strong>
+</p>
+</div> 
+<div class="hihi col-md-4 col-sm-6 footer-contacts">
+<div>
+<span class="fa fa-map-marker footer-contacts-icon"></span>
+<p> 
+<span class="new-line-span">8 Rue Bansac 63000 Clermont</span>
+</p>
+</div>
+<div>
+<i class="fa fa-phone footer-contacts-icon" ></i>
+<p class="footer-center-info email text-center"> 0473985454</p>
+</div>
+<div>
+<i class="fa fa-envelope footer-contacts-icon"></i>
+<p>anthony.medassisia@gmail.com</p>
+</div>
+</div>
+<div class="clearfix visible-sm-block">
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+  
+ </body>
+</html>
